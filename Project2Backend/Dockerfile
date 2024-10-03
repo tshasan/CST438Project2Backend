@@ -11,7 +11,7 @@ COPY src src
 
 RUN ./gradlew build
 
-COPY /build/libs/Project2Backend-0.0.1-SNAPSHOT.jar app.jar
+COPY build/libs/Project2Backend-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
