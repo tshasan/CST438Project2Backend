@@ -6,13 +6,12 @@ services:
       - 'MARIADB_PASSWORD=kyg9i83u8gaw66om'
       - 'MARIADB_USER=xclf17f8q3gskjaf'
     ports:
-      - '3306:3306'
-
+      - '3306'
   backend:
     build:
       context: ./
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"
+      - "8081:8081"
     environment:
-      - PORT=8080
+      - PORT=8081
