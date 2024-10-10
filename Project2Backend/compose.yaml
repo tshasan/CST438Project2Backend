@@ -7,3 +7,11 @@ services:
       - 'MARIADB_USER=xclf17f8q3gskjaf'
     ports:
       - '3306'
+  backend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
