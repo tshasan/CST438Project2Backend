@@ -6,7 +6,7 @@ services:
       - 'MARIADB_PASSWORD=kyg9i83u8gaw66om'
       - 'MARIADB_USER=xclf17f8q3gskjaf'
     ports:
-      - '3306'
+      - '3306:3306'
   backend:
     build:
       context: ./
