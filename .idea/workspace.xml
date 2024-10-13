@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="" />
+    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="created endpoints login/logout/delteuser/and create user">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,9 +35,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="DB_PASSWORD" value="kyg9i83u8gaw66om" />
+        <entry key="DB_USERNAME" value="xclf17f8q3gskjaf" />
+        <entry key="GITHUB_CLIENT_ID" value="Ov23liQOign048AlERY1" />
+        <entry key="GITHUB_CLIENT_SECRET" value="4fb36f54ef80962e1e94211d9708c7939bc39798" />
+        <entry key="GOOGLE_CLIENT_ID" value="701122319569-02h8g47mlbebhc75bs34n1qipotmvpvc.apps.googleusercontent.com" />
+        <entry key="GOOGLE_CLIENT_SECRET" value="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" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mubK2Lgus7vKTWKgWUK2pcTMyS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,14 +58,52 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.Project2Backend.mariadb: Compose Deployment.executor": "Run",
+    "Docker.Project2Backend: Compose Deployment.executor": "Run",
+    "Gradle.Build Project2Backend.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Endpoints",
     "kotlin-language-version-configured": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Project2Backend.mariadb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mariadb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Project2Backend/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Project2Backend.mariadb: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
