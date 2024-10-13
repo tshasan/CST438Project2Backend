@@ -1,3 +1,5 @@
+
+
 services:
   mariadb:
     image: 'mariadb:latest'
@@ -5,13 +7,23 @@ services:
       - 'MARIADB_DATABASE=j5rt3g818hv4m3ie'
       - 'MARIADB_PASSWORD=kyg9i83u8gaw66om'
       - 'MARIADB_USER=xclf17f8q3gskjaf'
+      - 'MARIADB_ROOT_PASSWORD=9J&1pLz!cR#12xQ'
     ports:
-      - '3306'
+      - '3307:3306'
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 15s
+      timeout: 15s
+      retries: 5
+
   backend:
     build:
-      context: ./
+      context: .
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
+    depends_on:
+      mariadb:
+        condition: service_healthy
     environment:
       - PORT=8080
