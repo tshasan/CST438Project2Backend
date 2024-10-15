@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="created endpoints login/logout/delteuser/and create user">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -32,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -61,6 +61,8 @@
     "Docker.Project2Backend.mariadb: Compose Deployment.executor": "Run",
     "Docker.Project2Backend: Compose Deployment.executor": "Run",
     "Gradle.Build Project2Backend.executor": "Run",
+    "Gradle.Project2BackendApplicationTests.contextLoads.executor": "Run",
+    "Gradle.Project2BackendApplicationTests.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -69,9 +71,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Endpoints",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -80,7 +84,63 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Project2Backend: Compose Deployment">
+    <configuration name="Project2BackendApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Project2Backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.csumb.project2backend.Project2BackendApplicationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Project2BackendApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Project2Backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.csumb.project2backend.Project2BackendApplicationTests.contextLoads&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Project2Backend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Project2Backend/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Project2Backend.mariadb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -95,14 +155,26 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Project2Backend: Compose Deployment" />
+        <item itemvalue="Gradle.Project2BackendApplicationTests" />
+        <item itemvalue="Gradle.Project2BackendApplicationTests.contextLoads" />
         <item itemvalue="Docker.Project2Backend.mariadb: Compose Deployment" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24582b8d" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,10 +185,60 @@
       <option name="presentableId" value="Default" />
       <updated>1727929341182</updated>
       <workItem from="1727929342506" duration="4000" />
+      <workItem from="1728974446043" duration="2902000" />
     </task>
+    <task id="LOCAL-00001" summary="created endpoints login/logout/delteuser/and create user added security">
+      <option name="closed" value="true" />
+      <created>1728974665456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728974665456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created endpoints login/logout/delteuser/and create user added security">
+      <option name="closed" value="true" />
+      <created>1728974678107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728974678107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties">
+      <option name="closed" value="true" />
+      <created>1728974850594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728974850594</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties">
+      <option name="closed" value="true" />
+      <created>1728974890151</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728974890151</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created endpoints login/logout/delteuser/and create user added security" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties" />
   </component>
 </project>
