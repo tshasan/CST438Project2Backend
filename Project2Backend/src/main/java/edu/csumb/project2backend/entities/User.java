@@ -2,7 +2,7 @@ package edu.csumb.project2backend.entities;
 
 import jakarta.persistence.*;
 @Entity
-@Table(name = "user")
+@Table (name = "user")
 public class User {
 
     // Mark the id field as the primary key and auto-generate values

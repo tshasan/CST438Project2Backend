@@ -5,7 +5,7 @@ services:
     image: 'mariadb:latest'
     environment:
       - 'MARIADB_DATABASE=j5rt3g818hv4m3ie'
-      - 'MARIADB_PASSWORD=kyg9i83u8gaw66om'
+      - 'MARIADB_PASSWORD=syovpev2dvo8euc9'
       - 'MARIADB_USER=xclf17f8q3gskjaf'
       - 'MARIADB_ROOT_PASSWORD=9J&1pLz!cR#12xQ'
     ports:
