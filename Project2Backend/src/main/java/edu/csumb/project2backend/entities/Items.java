@@ -3,7 +3,7 @@ package edu.csumb.project2backend.entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "items")
+@Table(name = "item")
 public class Items {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

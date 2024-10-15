@@ -1,4 +1,4 @@
-
+version: '3.8'
 
 services:
   mariadb:
@@ -9,7 +9,7 @@ services:
       - 'MARIADB_USER=xclf17f8q3gskjaf'
       - 'MARIADB_ROOT_PASSWORD=9J&1pLz!cR#12xQ'
     ports:
-      - '3307:3306'
+      - '3307:3306'  # Use port 3306 on the host
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 15s
@@ -18,12 +18,13 @@ services:
 
   backend:
     build:
-      context: .
+      context: ./
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
-    depends_on:
-      mariadb:
-        condition: service_healthy
     environment:
       - PORT=8080
+      - GOOGLE_CLIENT_ID=701122319569-02h8g47mlbebhc75bs34n1qipotmvpvc.apps.googleusercontent.com
+      - GOOGLE_CLIENT_SECRET=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
+      - DB_USERNAME=xclf17f8q3gskjaf
+      - DB_PASSWORD=syovpev2dvo8euc9
