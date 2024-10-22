@@ -1,8 +1,14 @@
 package edu.csumb.project2backend.entities;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "items")
 public class Items {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,6 +19,7 @@ public class Items {
     private String description;
 
     @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
     public int getId() {
