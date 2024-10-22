@@ -50,15 +50,14 @@ public class HomeController {
         }
         return ResponseEntity.status(401).body("Invalid credentials.");
     }
+    @GetMapping("/")
+    public String home(){
+        return "This is the root! Woohoo!!";
+    }
 
-   // @GetMapping("/")
-    //public String home(){
-       // return "This is the root! Woohoo!!";
-    //}
-
-    //@GetMapping("/secured")
-    //public String secured(){
-        //return "Secured!";
-    //}
+    @GetMapping("/secured")
+    public String secured(){
+        return "Secured!";
+    }
 
 }
