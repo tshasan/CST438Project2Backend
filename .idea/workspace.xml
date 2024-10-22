@@ -4,22 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties">
+    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="trying to fix bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/CST438Project2Backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CST438Project2Backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/Project2BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/Project2BackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/repositories/ItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/repositories/ItemRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Project2Backend">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/Project2Backend">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project2Backend" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -27,11 +53,28 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Silvia Pineda Jimenez &lt;157540574+spineda12@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;spineda12&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tshasan/CST438Project2Backend.git&quot;,
+    &quot;accountId&quot;: &quot;16ceb3d4-90f3-41ff-a549-1c0ed262747a&quot;
+  }
+}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,6 +90,9 @@
       </map>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -56,35 +102,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.Project2Backend.mariadb: Compose Deployment.executor": "Run",
-    "Docker.Project2Backend: Compose Deployment.executor": "Run",
-    "Gradle.Build Project2Backend.executor": "Run",
-    "Gradle.Project2BackendApplicationTests.contextLoads.executor": "Run",
-    "Gradle.Project2BackendApplicationTests.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Endpoints",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Project2BackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Project2Backend.mariadb: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Project2Backend: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Gradle.Build Project2Backend.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Project2Backend.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Project2BackendApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Project2BackendApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Endpoints&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Docker.Project2Backend: Compose Deployment">
+}</component>
+  <component name="RunManager" selected="Application.Project2BackendApplication">
+    <configuration name="Project2BackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.csumb.project2backend.Project2BackendApplication" />
+      <module name="CST438Project2Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.csumb.project2backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Project2BackendApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,6 +201,14 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Project2BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="edu.csumb.Project2Backend.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.csumb.project2backend.Project2BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Project2Backend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -162,6 +238,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project2BackendApplication" />
         <item itemvalue="Docker.Project2Backend: Compose Deployment" />
         <item itemvalue="Gradle.Project2BackendApplicationTests" />
         <item itemvalue="Gradle.Project2BackendApplicationTests.contextLoads" />
@@ -172,7 +249,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24582b8d" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -186,6 +264,9 @@
       <updated>1727929341182</updated>
       <workItem from="1727929342506" duration="4000" />
       <workItem from="1728974446043" duration="2902000" />
+      <workItem from="1729492007092" duration="1851000" />
+      <workItem from="1729494007736" duration="5467000" />
+      <workItem from="1729542873733" duration="4690000" />
     </task>
     <task id="LOCAL-00001" summary="created endpoints login/logout/delteuser/and create user added security">
       <option name="closed" value="true" />
@@ -240,5 +321,19 @@
     <MESSAGE value="created endpoints login/logout/delteuser/and create user added security" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CST438Project2Backend.iml" filepath="$PROJECT_DIR$/.idea/CST438Project2Backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project2Backend.iml" filepath="$PROJECT_DIR$/.idea/modules/Project2Backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project2Backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Project2Backend.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project2Backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Project2Backend.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/edu.csumb.Project2Backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/edu.csumb.Project2Backend.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/edu.csumb.Project2Backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/edu.csumb.Project2Backend.test.iml" />
     </modules>
   </component>
 </project>

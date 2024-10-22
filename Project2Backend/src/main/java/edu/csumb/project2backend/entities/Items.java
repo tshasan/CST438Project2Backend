@@ -1,9 +1,14 @@
 package edu.csumb.project2backend.entities;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "item")
+@Table(name = "items")
 public class Items {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
