@@ -253,7 +253,7 @@
       <workItem from="1729494007736" duration="5467000" />
       <workItem from="1729542873733" duration="10904000" />
       <workItem from="1729585079966" duration="4969000" />
-      <workItem from="1729614113194" duration="3122000" />
+      <workItem from="1729614113194" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="created endpoints login/logout/delteuser/and create user added security">
       <option name="closed" value="true" />
@@ -351,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729617856883</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixing heroku">
+      <option name="closed" value="true" />
+      <created>1729618128994</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729618128994</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
