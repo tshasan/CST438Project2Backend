@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="fixed the database connection trying to see why I still can't run the app">
-      <change beforePath="$PROJECT_DIR$/.idea/CST438Project2Backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CST438Project2Backend.iml" afterDir="false" />
+    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="works on docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/repositories/ItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/repositories/ItemRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +258,7 @@
       <workItem from="1728974446043" duration="2902000" />
       <workItem from="1729492007092" duration="1851000" />
       <workItem from="1729494007736" duration="5467000" />
-      <workItem from="1729542873733" duration="7046000" />
+      <workItem from="1729542873733" duration="8030000" />
     </task>
     <task id="LOCAL-00001" summary="created endpoints login/logout/delteuser/and create user added security">
       <option name="closed" value="true" />
@@ -305,7 +300,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729556680182</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="works on docker">
+      <option name="closed" value="true" />
+      <created>1729581285155</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729581285155</updated>
+    </task>
+    <task id="LOCAL-00007" summary="works on docker">
+      <option name="closed" value="true" />
+      <created>1729581379328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729581379328</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +337,8 @@
     <MESSAGE value="created endpoints login/logout/delteuser/and create user added security" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties" />
     <MESSAGE value="fixed the database connection trying to see why I still can't run the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the database connection trying to see why I still can't run the app" />
+    <MESSAGE value="works on docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="works on docker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
