@@ -23,6 +23,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'mysql:mysql-connector-java:8.0.33'
 
 	// Session handling
 	implementation 'org.springframework.session:spring-session-core'
@@ -32,7 +33,7 @@ dependencies {
 
 	// MariaDB driver
 	//runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
-	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client:3.3.3'
+	//runtimeOnly 'org.mariadb.jdbc:mariadb-java-client:3.3.3'
 
 	// Devtools for development
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
