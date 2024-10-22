@@ -5,12 +5,11 @@ import jakarta.persistence.*;
 @Table (name = "users")
 public class User {
 
-    // Mark the id field as the primary key and auto-generate values
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
     private int id;
 
-    // Define the columns for username, password, and role
     @Column(nullable = false, unique = true)
     private String username;
 
