@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="works on docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/test/resources/application.properties" afterDir="false" />
     </list>
@@ -32,6 +34,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Project2Backend" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project2Backend" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -98,6 +105,7 @@
     &quot;Docker.Project2Backend: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
     &quot;Gradle.Build Project2Backend.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Project2Backend.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Project2BackendApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Project2BackendApplicationTests.executor&quot;: &quot;Run&quot;,
@@ -116,7 +124,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
@@ -133,7 +141,7 @@
       <recent name="$PROJECT_DIR$/Project2Backend" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Project2Backend.backend: Compose Deployment">
+  <component name="RunManager" selected="Docker.Project2Backend.mariadb: Compose Deployment">
     <configuration name="Project2BackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.csumb.project2backend.Project2BackendApplication" />
       <module name="CST438Project2Backend" />
@@ -161,30 +169,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;edu.csumb.project2backend.Project2BackendApplicationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Project2BackendApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Project2Backend" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;edu.csumb.project2backend.Project2BackendApplicationTests.contextLoads&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -225,6 +209,19 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="Project2Backend.mariadb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mariadb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Project2Backend/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -233,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Project2Backend.backend: Compose Deployment" />
+        <item itemvalue="Docker.Project2Backend.mariadb: Compose Deployment" />
         <item itemvalue="Application.Project2BackendApplication" />
+        <item itemvalue="Docker.Project2Backend.backend: Compose Deployment" />
         <item itemvalue="Docker.Project2Backend: Compose Deployment" />
         <item itemvalue="Gradle.Project2BackendApplicationTests" />
-        <item itemvalue="Gradle.Project2BackendApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +259,8 @@
       <workItem from="1729492007092" duration="1851000" />
       <workItem from="1729494007736" duration="5467000" />
       <workItem from="1729542873733" duration="10904000" />
-      <workItem from="1729585079966" duration="6000" />
+      <workItem from="1729585079966" duration="4969000" />
+      <workItem from="1729614113194" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="created endpoints login/logout/delteuser/and create user added security">
       <option name="closed" value="true" />
@@ -328,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729582156361</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="works on docker">
+      <option name="closed" value="true" />
+      <created>1729585132680</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729585132680</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

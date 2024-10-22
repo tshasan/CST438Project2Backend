@@ -24,5 +24,6 @@ COPY --from=build /Project2Backend/build/libs/Project2Backend-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
 
 # Use environment variable for server port
-ENTRYPOINT ["java", "-jar", "app.jar"]
-CMD ["--server.port=8080"]
+ENTRYPOINT ["java", "-jar", "app.jar", "--spring.config.location=classpath:/application.properties"]
+#ENTRYPOINT ["java", "-jar", "app.jar"]
+#CMD ["--server.port=8080"]

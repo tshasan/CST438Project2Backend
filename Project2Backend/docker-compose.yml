@@ -1,4 +1,4 @@
-version: '3.8'
+#version: '3.8'
 
 services:
   mariadb:
@@ -12,9 +12,9 @@ services:
       - '3307:3306'  # Use port 3306 on the host
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
-      interval: 15s
-      timeout: 15s
-      retries: 5
+      interval: 30s
+      timeout: 10s
+      retries: 15
 
   backend:
     build:
