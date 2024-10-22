@@ -1,6 +1,8 @@
 build:
   docker:
-    web: Project2Backend/Dockerfile
+    web: ./Project2Backend/Dockerfile
+      #config:
+       # dockerfile: ./Project2Backend/Dockerfile
 
 run:
   web: java -jar app.jar --server.port=${PORT:-8080}
