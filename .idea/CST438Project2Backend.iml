@@ -38,5 +38,6 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.3.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-test:3.3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.docker-java:docker-java-api:3.3.6" level="project" />
   </component>
 </module>

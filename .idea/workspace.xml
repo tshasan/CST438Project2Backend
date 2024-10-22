@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="trying to fix bugs">
+    <list default="true" id="3403ab0f-73b9-4a9e-af35-8eede61b8a26" name="Changes" comment="fixed the database connection trying to see why I still can't run the app">
       <change beforePath="$PROJECT_DIR$/.idea/CST438Project2Backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CST438Project2Backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/Project2BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/Project2BackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/entities/Items.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/repositories/ItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/java/edu/csumb/project2backend/repositories/ItemRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2Backend/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project2Backend/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +81,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -102,44 +92,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Project2BackendApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.Project2Backend.mariadb: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.Project2Backend: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Gradle.Build Project2Backend.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Project2Backend.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Project2BackendApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Project2BackendApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Endpoints&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Project2BackendApplication.executor": "Run",
+    "Docker.Project2Backend.backend: Compose Deployment.executor": "Run",
+    "Docker.Project2Backend.mariadb: Compose Deployment.executor": "Run",
+    "Docker.Project2Backend: Compose Deployment.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Gradle.Build Project2Backend.executor": "Run",
+    "Gradle.Project2Backend.executor": "Run",
+    "Gradle.Project2BackendApplicationTests.contextLoads.executor": "Run",
+    "Gradle.Project2BackendApplicationTests.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Endpoints",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Project2BackendApplication">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Project2Backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Project2Backend.backend: Compose Deployment">
     <configuration name="Project2BackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.csumb.project2backend.Project2BackendApplication" />
       <module name="CST438Project2Backend" />
@@ -217,12 +213,13 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Project2Backend.mariadb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="Project2Backend.backend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
+          <option name="envFilePath" value="" />
           <option name="services">
             <list>
-              <option value="mariadb" />
+              <option value="backend" />
             </list>
           </option>
           <option name="sourceFilePath" value="Project2Backend/docker-compose.yml" />
@@ -238,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Project2Backend.backend: Compose Deployment" />
         <item itemvalue="Application.Project2BackendApplication" />
         <item itemvalue="Docker.Project2Backend: Compose Deployment" />
         <item itemvalue="Gradle.Project2BackendApplicationTests" />
         <item itemvalue="Gradle.Project2BackendApplicationTests.contextLoads" />
-        <item itemvalue="Docker.Project2Backend.mariadb: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +263,7 @@
       <workItem from="1728974446043" duration="2902000" />
       <workItem from="1729492007092" duration="1851000" />
       <workItem from="1729494007736" duration="5467000" />
-      <workItem from="1729542873733" duration="4690000" />
+      <workItem from="1729542873733" duration="7046000" />
     </task>
     <task id="LOCAL-00001" summary="created endpoints login/logout/delteuser/and create user added security">
       <option name="closed" value="true" />
@@ -300,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728974890151</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed the database connection trying to see why I still can't run the app">
+      <option name="closed" value="true" />
+      <created>1729556680182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729556680182</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +325,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created endpoints login/logout/delteuser/and create user added security" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Endpoints' into Endpoints&#10;&#10;# Conflicts:&#10;#&#9;Project2Backend/docker-compose.yml&#10;#&#9;Project2Backend/src/main/resources/application.properties" />
+    <MESSAGE value="fixed the database connection trying to see why I still can't run the app" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the database connection trying to see why I still can't run the app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
